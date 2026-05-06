@@ -28,14 +28,6 @@ export const metadata: Metadata = {
     description: "A new system is being built.",
     url: "https://bhaskarwar.co.in",
     siteName: "Bhaskarwar Estates",
-    images: [
-      {
-        url: "/og-image.png",
-        width: 1200,
-        height: 630,
-        alt: "Bhaskarwar Estates",
-      },
-    ],
     locale: "en_IN",
     type: "website",
   },
@@ -43,11 +35,10 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "Bhaskarwar Estates",
     description: "A new system is being built.",
-    images: ["/og-image.png"],
   },
   robots: {
     index: true,
-    follow: false,
+    follow: true,
   },
 };
 
