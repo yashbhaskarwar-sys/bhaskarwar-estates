@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm --version)",
+      "Bash(export PATH=\"/opt/homebrew/bin:/usr/local/bin:/usr/bin:/bin:$PATH\")",
+      "Read(//opt/homebrew/**)",
+      "Read(//usr/local/**)",
+      "Read(//Users/drbhaskarwar/.nvm/versions/**)",
+      "Read(//Users/drbhaskarwar/.nodenv/**)",
+      "Bash(command -v node)",
+      "Read(//Users/drbhaskarwar/**)",
+      "Read(//usr/**)",
+      "Bash(/opt/pkg/env/active/bin/node --version)",
+      "Bash(brew --version)",
+      "Bash(/opt/homebrew/bin/brew --version)",
+      "Bash(sw_vers)",
+      "Bash(curl -fsSL https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh)",
+      "Bash(bash)"
+    ]
+  }
+}
