@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Bhaskarwar Estates
 
-## Getting Started
+**Infrastructure-first. Asset-first. Execution-first. Tenant-first.**
 
-First, run the development server:
+Bhaskarwar Estates is a long-term commercial infrastructure and build-to-suit operating platform based in Wani, Maharashtra.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## What This Is
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+A durable operational repository supporting the institutional growth of Bhaskarwar Estates — land, infrastructure, tenants, and operations.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+This is not a software product. Technology here serves:
+- operational continuity
+- documentation discipline
+- intelligence organization
+- execution quality
+- long-term scalability
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## Repository Structure
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Directory | Purpose |
+|-----------|---------|
+| `core/` | Foundational institutional documents — mission, governance, principles |
+| `parcels/` | Land and parcel records — surveys, titles, area data |
+| `tenants/` | Tenant files — agreements, correspondence, status |
+| `operations/` | Day-to-day operational records and SOPs |
+| `docs/` | Reference documentation, reports, and research |
+| `prompts/` | Operational AI prompts and context templates |
+| `branding/` | Visual identity guidelines and brand assets |
+| `infra/` | Deployment configuration and infrastructure notes |
+| `archive/` | Superseded documents retained for reference |
+| `src/` | Public teaser site (bhaskarwar.co.in) |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## Key Files
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| File | Purpose |
+|------|---------|
+| `MASTER_CONTEXT.md` | Single source of truth for the estate's identity and strategic context |
+| `CURRENT_STATE.md` | Live snapshot of operational status |
+| `ROADMAP.md` | Phased development plan |
+| `TASKS.md` | Active task register |
+| `DECISIONS.md` | Decision log with rationale |
+| `CHANGELOG.md` | Chronological record of significant changes |
+| `DEPLOY.md` | Deployment guide for the teaser site |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## Operating Philosophy
+
+- Documentation before action
+- Institutional clarity over clever engineering
+- Durable structures over trendy tools
+- Calm, methodical execution
+
+---
+
+*Established 2026 — Wani, Maharashtra*
