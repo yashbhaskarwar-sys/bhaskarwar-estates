@@ -172,31 +172,28 @@ export default function HeroSection({ visible }: HeroSectionProps) {
           </p>
         </div>
 
-        {/* Birthday message */}
+        {/* Location mark */}
         <div
-          className="mt-20 flex flex-col items-center gap-4"
+          className="mt-20 flex items-center gap-4"
           style={{
             opacity: visible ? 1 : 0,
-            transform: visible ? "translateY(0)" : "translateY(16px)",
+            transform: visible ? "translateY(0)" : "translateY(12px)",
             transition: "opacity 1.6s ease 1.9s, transform 1.6s cubic-bezier(0.16,1,0.3,1) 1.9s",
           }}
         >
-          {/* Fine rule above birthday */}
-          <div className="h-px w-8 bg-[#c9a96e] opacity-25" />
-
+          <div className="h-px w-8 bg-[#c9a96e] opacity-20" />
           <span
-            className="font-[family-name:var(--font-cormorant)] font-light text-[#c9a96e]"
+            className="font-[family-name:var(--font-cormorant)] text-[#3e3e3a]"
             style={{
-              fontSize: "clamp(1.6rem, 4vw, 2.8rem)",
-              letterSpacing: "0.12em",
-              lineHeight: 1.2,
-              textShadow: "0 0 40px rgba(201,169,110,0.2)",
+              fontSize: "clamp(0.6rem, 1.8vw, 0.9rem)",
+              letterSpacing: "0.38em",
+              textTransform: "uppercase",
+              whiteSpace: "nowrap",
             }}
           >
-            Happy Birthday
+            Wani · Maharashtra
           </span>
-
-          <div className="h-px w-8 bg-[#c9a96e] opacity-25" />
+          <div className="h-px w-8 bg-[#c9a96e] opacity-20" />
         </div>
       </div>
 

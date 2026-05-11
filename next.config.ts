@@ -19,7 +19,7 @@ const securityHeaders = [
   // Disable browser features not needed on a teaser page
   {
     key: "Permissions-Policy",
-    value: "camera=(), microphone=(), geolocation=(), interest-cohort=()",
+    value: "camera=(), microphone=(), geolocation=()",
   },
   // DNS prefetch control
   {
