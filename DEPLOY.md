@@ -39,10 +39,10 @@ Your site will be live at `bhaskarwar-estates.vercel.app` within ~60 seconds.
 
 | Type  | Host | Value                    | TTL  |
 |-------|------|--------------------------|------|
-| A     | @    | 76.76.19.61              | Auto |
+| A     | @    | 216.198.79.1             | Auto |
 | CNAME | www  | cname.vercel-dns.com     | Auto |
 
-> Vercel's IP: `76.76.19.61` (their Anycast IP for custom domains)
+> Vercel's IP: `216.198.79.1` (Anycast IP — confirmed live from DNS audit May 2026)
 
 5. Save changes — DNS propagates in 5–30 minutes
 6. Vercel auto-provisions your SSL certificate (HTTPS) at no cost
@@ -52,8 +52,8 @@ Your site will be live at `bhaskarwar-estates.vercel.app` within ~60 seconds.
 ## Step 4 — Verify
 
 Once DNS propagates:
-- `https://bhaskarwar.co.in` → live site
-- `https://www.bhaskarwar.co.in` → redirects to apex
+- `https://bhaskarwar.co.in` → 307 redirects to www (Vercel canonical)
+- `https://www.bhaskarwar.co.in` → live site (primary)
 
 ---
 

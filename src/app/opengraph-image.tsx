@@ -56,14 +56,13 @@ export default async function Image() {
           }}
         />
 
-        {/* Content */}
+        {/* Content — rendered after background layers (painter's algorithm, no z-index needed) */}
         <div
           style={{
             display: "flex",
             flexDirection: "column",
             alignItems: "center",
             gap: "24px",
-            zIndex: 1,
           }}
         >
           {/* Eyebrow */}
